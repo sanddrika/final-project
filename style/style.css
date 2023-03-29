@@ -134,11 +134,11 @@
 
 /* meore seqcia mtlianad */
 .section2-wrapper {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 664px;
   margin: 0 auto;
-  background-image: url('../img/lamborghini.jpg');
+  background-image: url("../img/lamborghini.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -250,9 +250,9 @@
 .section3-wrapper {
   /* max-width: 1440px; */
   width: 100%;
- 
+
   height: 600px;
-  background-image: url('../img/background4.jpg');
+  background-image: url("../img/background4.jpg");
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -299,7 +299,7 @@
   /* max-width: 1440px; */
   width: 100%;
   height: 435px;
-  background: #2A2B2E;
+  background: #2a2b2e;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -318,7 +318,6 @@
   max-width: 286px;
   max-width: 100%;
   height: 106px;
-
 }
 .line1-text {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -366,7 +365,7 @@
 }
 .hr {
   border: 2px solid;
-  color: #9FA1A3;
+  color: #9fa1a3;
   max-width: 1240px;
   width: 100%;
   margin-top: 64px;
@@ -381,12 +380,14 @@
 .section1-list {
   transition: 0.5s;
 }
-.section1-list:hover{
-  color: #DF2935;
-  text-shadow: 0 0 10px #fff,
-  0 0 20px #fff,
-  0 0 30px #fff,
-  0 0 40px #fff,
-  0 0 50px #fff;
+.section1-list:hover {
+  color: #df2935;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+    0 0 50px #fff;
 }
 
+.bar {
+  font-size: 25px;
+  color: #fff;
+  display: none;
+}
