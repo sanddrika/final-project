@@ -1,0 +1,231 @@
+@media (min-width: 770px) and (max-width: 1024px) {
+  .section1-text-block {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap ;
+  }
+  .section1-main-header {
+font-size: 55px;
+  }
+  .section1-main-text {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .wide {
+    margin-bottom: 12px;
+  }
+  .page-section {
+    background: red;
+  }
+
+  /*    meore seqqcia      */
+  .section2-wrapper {
+    background: blue;
+    flex-direction: column;
+    height: auto;
+  }
+  .right-block {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section2-text-box {
+    margin: 0 auto;
+  }
+  .right-block-bottom {
+    width: 100%;
+  }
+  .section2-person-block1 {
+    width: 45%;
+  }
+  .section2-person-text {
+    font-size: 20px;
+    margin-bottom: -75px;
+  }
+
+  /* me3e seqcia */
+  .get-in-touch {
+    width: 90%;
+  }
+
+  /* me4e seqcia */
+
+  .line1 {
+    width: 80%;
+  }
+  .line1-left-block {
+    width: 80%;
+    height: 80%;
+  }
+  .line1-right-block {
+    width: 80%;
+  }
+  .hr {
+    width: 80%;
+  }
+  .line2 {
+    width: 80%;
+  }
+}
+
+
+@media (min-width: 330px) and (max-width: 480px) {
+  .section1-text-block  {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: center;
+  }
+  .section-block-text {
+    font-size:35px;
+  }
+  .section1-main-header {
+    font-size: 30px;
+  }
+  .section1-main-text {
+    font-size: 20px ;
+  }
+  .search-bar {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 95%;
+  }
+  
+  
+  .page-section {
+    background: green;
+    height: 1100px;
+  }
+  .box {
+    margin-bottom: 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-block {
+    width: 80%;
+    font-size: 40px;
+  }
+  /*  aqedan iwyeba meore seqcia */
+  .section2-wrapper {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+  .right-block {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .section2-person-block1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .right-block-bottom {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .left-block {
+    width: 80%;
+  }
+  .text-block3 {
+    width: 80%;
+    font-size: 17px;
+  }
+  .pesonal-block {
+    width: 80%;
+    height: auto;
+  }
+  .logo1 {
+    margin-left: 25px;
+  }
+  /*  marjvena bloki */
+  .right-block {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .section2-text-box {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+  }
+  .section2-person-block1 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pesonal-text4 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .section2-person-text {
+    font-size: 20px;
+  }
+
+  /* me3e seqcia yvelaze ioli da sayvareli  */
+
+  .section3-wrapper {
+    width: 100%;
+  }
+  .section3-header {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  .section3-text {
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+
+  .get-in-touch {
+    width: 90%;
+  }
+
+
+
+  /* me4e seqcia */
+  .section4-wrapper {
+    width: 100%;
+    height: auto;
+  }
+.line1 {
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+ 
+}
+.line1-text {
+  font-size: 15px;
+}
+.section4-nav-header {
+  font-size: 15px;
+}
+.section4-li {
+  font-size: 12px;
+}
+.hr {
+  width: 90%;
+}
+.line2 {
+  width: 90%;
+}
+.line2-text-block {
+  font-size: 13px;
+}
+.line2-social-block {
+  justify-content: space-evenly;
+}
+}
