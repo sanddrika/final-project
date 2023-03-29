@@ -32,7 +32,7 @@
 }
 .section1-list {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regualr;
+  font-weight: 400;
   color: #fff;
 }
 .section1-logo {
@@ -53,7 +53,7 @@
 }
 .section1-main-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: medium;
+  font-weight:400;
   font-size: 20px;
   color: #fff;
   margin-top: 50px;
@@ -126,7 +126,7 @@
 }
 .box-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight:400;
   font-size: 14px;
   color: #9fa1a3;
   margin-left: 16px;
@@ -165,7 +165,7 @@
   height: 200px;
 
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight:400;
   font-size: 20px;
   color: #ffffff;
   margin-left: 24px;
@@ -183,7 +183,7 @@
 .pesonal-text {
   margin-left: 12px;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: medium;
+  font-weight: 400;
   font-size: 16px;
   color: #fff;
 }
@@ -227,7 +227,7 @@
 }
 .section2-person-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   font-size: 14px;
   color: #fff;
 }
@@ -240,7 +240,7 @@
 }
 .peronal-header2 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   color: #ffffff;
   margin-left: 10px;
 }
@@ -278,7 +278,7 @@
 }
 .section3-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   font-size: 20px;
   color: #ffffff;
   margin: 30px 0px 48px 0px;
@@ -321,7 +321,7 @@
 }
 .line1-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #9fa1a3;
@@ -336,7 +336,7 @@
 
 .section4-nav-header {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   color: #ffffff;
   font-size: 20px;
   margin-bottom: 10px;
@@ -344,7 +344,7 @@
 
 .section4-li {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: regular;
+  font-weight: 500;
   color: #9fa1a3;
   font-size: 16px;
 }
