@@ -1,12 +1,17 @@
 .section1-wrapper {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 790px;
   background: grey;
   margin: 0 auto;
+
+  background-image: url("../img/bmw-m5-black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .section1-header {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 100px;
   background: #43454e;
@@ -17,10 +22,10 @@
 }
 .section1-nav-bar {
   max-width: 450px;
-  width: 100%; 
+  width: 100%;
   /* background: grey; */
   margin-right: 30px;
-} 
+}
 .section1-navigation {
   display: flex;
   justify-content: space-between;
@@ -37,7 +42,6 @@
   max-width: 996px;
   width: 100%;
   height: 327px;
-  background: #293a82;
   margin-top: 60px;
   margin-left: 100px;
 }
@@ -72,30 +76,13 @@
   background: #f1f1f1;
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page-section {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 721px;
-  background: green;
+  background-image: url("../img/nissan-gtr-sportscar-art.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -104,18 +91,17 @@
   max-width: 1240px;
   width: 100%;
   /* height: 349px; */
-  background: lightblue;
+
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* margin-top: 252px; */
 }
 .text-block {
   max-width: 604px;
   width: 100%;
   height: 180px;
-  background: yellow;
+
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -152,7 +138,9 @@
   width: 100%;
   height: 664px;
   margin: 0 auto;
-  background: grey;
+  background-image: url('../img/lamborghini.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -175,7 +163,7 @@
   max-width: 434px;
   width: 100%;
   height: 200px;
-  background: green;
+
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: regular;
   font-size: 20px;
@@ -185,7 +173,7 @@
 
 .pesonal-block {
   display: flex;
-  background: red;
+
   max-width: 240px;
   width: 100%;
   height: 48px;
@@ -210,7 +198,6 @@
   max-width: 810px;
   width: 100%;
   height: 424px;
-  background: lightgreen;
   display: flex;
   flex-direction: column;
   margin-left: 32px;
@@ -219,7 +206,6 @@
   max-width: 517px;
   width: 100%;
   height: 152px;
-  background: #df2935;
 }
 .section2-person-block1 {
   max-width: 392px;
@@ -232,7 +218,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
-  background: yellow;
 }
 .section2-text-box {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -252,22 +237,22 @@
   width: 100%;
   margin-top: 120px;
   margin-left: 15px;
-  background: lightblue;
-  /* align-items: center; */
 }
 .peronal-header2 {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: regular;
   color: #ffffff;
+  margin-left: 10px;
 }
 
 /* me3e seqcia patara knopkiani */
 
 .section3-wrapper {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
+ 
   height: 600px;
-  background: #43454e;
+  background-image: url('../img/background4.jpg');
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -276,7 +261,7 @@
   max-width: 1116px;
   width: 100%;
   height: 267px;
-  background: #9fa1a3;
+  /* background: #9fa1a3; */
   margin: 0 auto;
   border: 2px solid #fff;
   border-radius: 20px;
@@ -311,15 +296,14 @@
 /* meotxe seqcia tavisi footeriand */
 
 .section4-wrapper {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 435px;
-  background: #9fa1a3;
+  background: #2A2B2E;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
 }
 .line1 {
   max-width: 1240px;
@@ -327,15 +311,14 @@
   height: 213px;
   display: flex;
   margin: 0 auto;
-  margin-top: 64px ;
-  background: yellow;
+  margin-top: 64px;
   justify-content: space-between;
 }
 .line1-left-block {
   max-width: 286px;
   max-width: 100%;
   height: 106px;
-  background: green;
+
 }
 .line1-text {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -348,7 +331,6 @@
   max-width: 515px;
   width: 100%;
   height: 213px;
-  background: lightblue;
   display: flex;
   justify-content: space-between;
 }
@@ -378,14 +360,13 @@
   width: 100%;
   height: 62px;
   margin: 0 auto;
-  background: goldenrod;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .hr {
   border: 2px solid;
-  color: blue;
+  color: #9FA1A3;
   max-width: 1240px;
   width: 100%;
   margin-top: 64px;
@@ -397,4 +378,15 @@
   justify-content: space-between;
 }
 
+.section1-list {
+  transition: 0.5s;
+}
+.section1-list:hover{
+  color: #DF2935;
+  text-shadow: 0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 30px #fff,
+  0 0 40px #fff,
+  0 0 50px #fff;
+}
 

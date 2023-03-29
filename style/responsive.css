@@ -1,19 +1,21 @@
 @media (min-width: 770px) and (max-width: 1024px) {
   .section1-text-block {
-    width: 80%;
+    width: 70%;
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
   }
   .section1-main-header {
-font-size: 55px;
+    font-size: 45px;
   }
   .section1-main-text {
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: -35px;
   }
-  
-  
-  
+  .section1-wrapper {
+    height: 120%;
+    background-size: 120%;
+  }
+
   .container {
     display: flex;
     justify-content: space-evenly;
@@ -22,14 +24,18 @@ font-size: 55px;
     margin-bottom: 12px;
   }
   .page-section {
-    background: red;
+    /* background-size: 100%;
+    height: 220%; */
+    background-size: cover;
   }
 
   /*    meore seqqcia      */
   .section2-wrapper {
-    background: blue;
     flex-direction: column;
     height: auto;
+
+    /* height: 190%; */
+    background-size: cover;
   }
   .right-block {
     width: 90%;
@@ -74,32 +80,30 @@ font-size: 55px;
   }
 }
 
-
 @media (min-width: 330px) and (max-width: 480px) {
-  .section1-text-block  {
+  .section1-text-block {
     width: 70%;
     margin: 0 auto;
     margin-top: 45px;
     text-align: center;
   }
   .section-block-text {
-    font-size:35px;
+    font-size: 35px;
   }
   .section1-main-header {
     font-size: 30px;
   }
   .section1-main-text {
-    font-size: 20px ;
+    font-size: 20px;
   }
   .search-bar {
     margin: 0 auto;
     margin-top: 100px;
     width: 95%;
   }
-  
-  
+
   .page-section {
-    background: green;
+    background-size: 100%;
     height: 1100px;
   }
   .box {
@@ -194,38 +198,35 @@ font-size: 55px;
     width: 90%;
   }
 
-
-
   /* me4e seqcia */
   .section4-wrapper {
     width: 100%;
     height: auto;
   }
-.line1 {
-  flex-direction: column;
-  width: 90%;
-  height: auto;
- 
-}
-.line1-text {
-  font-size: 15px;
-}
-.section4-nav-header {
-  font-size: 15px;
-}
-.section4-li {
-  font-size: 12px;
-}
-.hr {
-  width: 90%;
-}
-.line2 {
-  width: 90%;
-}
-.line2-text-block {
-  font-size: 13px;
-}
-.line2-social-block {
-  justify-content: space-evenly;
-}
+  .line1 {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .line1-text {
+    font-size: 15px;
+  }
+  .section4-nav-header {
+    font-size: 15px;
+  }
+  .section4-li {
+    font-size: 12px;
+  }
+  .hr {
+    width: 90%;
+  }
+  .line2 {
+    width: 90%;
+  }
+  .line2-text-block {
+    font-size: 13px;
+  }
+  .line2-social-block {
+    justify-content: space-evenly;
+  }
 }
